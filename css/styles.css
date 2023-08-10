@@ -165,22 +165,20 @@ h3 {
 	font-size: 1.3rem;
 	font-family: 'Crimson Text', sans-serif;
 	font-weight: 300;
-	color: #000;
-	left: 50%;
+	color: #fff;
 	position: absolute;
-	top: 50%;
-	width: 100%;
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	opacity: 0;
+	right: 2%;
+	bottom: 5%;
+	opacity: 1;
 	filter: alpha(opacity=0);
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
+	text-decoration: underline;
 }
 
 .hovereffect:hover .overlay-text {
 	opacity: 1;
+	color: #000;
 	filter: alpha(opacity=100);
 }
 
@@ -197,8 +195,8 @@ h3 {
 }
 
 .hovereffect:hover img {
-	opacity: 0;
-	filter: alpha(opacity=0);
+	opacity: 0.5;
+	filter: alpha(opacity=60);
 }
 
 .page-nav {
