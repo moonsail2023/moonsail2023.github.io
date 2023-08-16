@@ -16,6 +16,10 @@ body {
 	}
 }
 
+img {
+	max-width: 100%;
+}
+
 .my-video-container {
 	margin-bottom: 40px;
 
