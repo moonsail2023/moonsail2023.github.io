@@ -22,25 +22,24 @@ img {
 
 .my-video-container {
 	margin-bottom: 40px;
+}
 
-	.my-iframe-container {
-		position: relative;
-		padding: 30% 45%;
-		max-height: 70vh;
-		margin-bottom: 40px;
-	}
+.my-iframe-container {
+	position: relative;
+	padding: 30% 45%;
+	max-height: 70vh;
+	margin-bottom: 40px;
 }
 
 @media (min-width: 768px) {
 	.my-video-container {
 		height: 600px;
-
-		.my-iframe-container {
-			position: relative;
-			height: 100%;
-			padding: 0;
-			margin-bottom: 40px;
-		}
+	}
+	.my-iframe-container {
+		position: relative;
+		height: 100%;
+		padding: 0;
+		margin-bottom: 40px;
 	}
 }
 
